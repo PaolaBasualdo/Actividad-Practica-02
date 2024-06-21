@@ -1,0 +1,28 @@
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-size: 1 rem;
+    background-color: #FFF;
+    width: 90%;
+    margin: 0 auto; /* Centrar la tabla horizontalmente */
+}
+
+td {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px 20px;
+}
+
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px 20px;
+    background-color: rgb(225, 225, 225);
+}
+tr:nth-child(even) {
+    background-color: rgb(245, 245, 245);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(255, 255, 255);
+}
+
