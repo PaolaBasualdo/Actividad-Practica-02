@@ -3,14 +3,14 @@ body {
   font-family: 'Montserrat', sans-serif; /* Fuente principal */
   line-height: 1.6; /* Altura de línea */
   color: #333; /* Color de texto */
-  margin: 0; /* Eliminar márgenes */
-  padding: 0; /* Eliminar relleno */
+  margin: 0; /* Eliminar márgenes predeterminados */
   background-color: #f8f9fa; /* Color de fondo */
+  padding-bottom: 150px; /* Espacio al final de la página */
 }
 
 /* Estilo del encabezado */
 header {
-  background: linear-gradient(to right, #ffffff 0%, #ffcc80 46%, #ff847c 100%);
+  background: linear-gradient(to right, #ffffff 0%, #ffcc80 46%, #ff847c 100%); /* Degradado del fondo del encabezado */
   padding: 20px; /* Relleno interno */
   text-align: center; /* Centrar contenido */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra del encabezado */
@@ -46,11 +46,13 @@ header ul li a {
   color: #333; /* Color del texto */
   font-weight: bold; /* Texto en negrita */
 }
-.active{
-  background-color:#ff847c ;
-  border-radius: 10px;
-  font-size: 15px;
-  padding: 10px;
+
+/* Clase para el elemento activo de la navegación */
+.active {
+  background-color:#ff847c ; /* Color de fondo para el enlace activo */
+  border-radius: 10px; /* Bordes redondeados */
+  font-size: 15px; /* Tamaño de la fuente */
+  padding: 10px; /* Espaciado interno */
 }
 
 /* Estilo del enlace activo en la lista de navegación */
@@ -60,12 +62,12 @@ header ul li a.active {
 
 /* Estilo del pie de página */
 .footer { 
-  background-color: #ffcc80; /* Color de fondo del pie de página */
-  padding: 15px;
-  text-align: center;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  background: linear-gradient(to right, #ffffff 0%, #ffcc80 46%, #ff847c 100%);
+  padding: 15px; /* Espaciado interno */
+  text-align: center; /* Centrar texto */
+  position: fixed; /* Fijar el pie de página al fondo de la pantalla */
+  bottom: 0; /* Posicionar el pie de página en la parte inferior */
+  width: 100%; /* Ancho completo del pie de página */
   box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); /* Sombra del pie de página */
 }
 
@@ -77,4 +79,3 @@ h2 {
   padding: 0; /* Eliminar relleno */
   text-align: center; /* Centrar texto */
 }
-
