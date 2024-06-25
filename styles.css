@@ -6,12 +6,12 @@ body {
   margin: 0; /* Eliminar márgenes */
   padding: 0; /* Eliminar relleno */
   background-color: #ffffff; /* Color de fondo */
-  padding-bottom: 150px; /* Espacio al final de la página *
+  padding-bottom: 150px; /* Espacio al final de la página */
   }
 
 /* Estilo del encabezado */
 header {
-  background: linear-gradient(to right, #ffffff 0%, #ffcc80 46%, #ff847c 100%);
+  background: linear-gradient(to right, #ffffff 0%, #ffcc80 46%, #ff847c 100%); /* Degradado del fondo del encabezado */
   padding: 20px; /* Relleno interno */
   text-align: center; /* Centrar contenido */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra del encabezado */
@@ -52,6 +52,14 @@ header ul li a {
   border-radius: 10px;
   font-size: 15px;
   padding: 10px;
+}
+
+/* Clase para el elemento activo de la navegación */
+.active {
+  background-color:#ff847c ; /* Color de fondo para el enlace activo */
+  border-radius: 10px; /* Bordes redondeados */
+  font-size: 15px; /* Tamaño de la fuente */
+  padding: 10px; /* Espaciado interno */
 }
 
 /* Estilo del enlace activo en la lista de navegación */

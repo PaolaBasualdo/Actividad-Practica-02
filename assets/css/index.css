@@ -1,53 +1,43 @@
-/* Estilos de home */
-/* Contenedor principal */
-  .container {
-    max-width: 100%; /* Ancho máximo del contenedor */
-    margin: 0 auto; /* Centrar contenedor */
-    padding: 20px; /* Relleno interno */
-  }
-  
-  /* Estilo de los títulos en el contenedor principal */
-  .container h3 {
-    font-family: 'Chewy', cursive; /* Fuente de los títulos */
-    color: #555; /* Color del texto */
-  }
-  
-  /* Estilo de los párrafos en el contenedor principal */
-  .container p {
-    margin-bottom: 20px; /* Margen inferior */
-  }
-  
-  /* Estilo de las imágenes alineadas a la derecha */
-  .image {
-    float: right; /* Flotar a la derecha */
-    margin: 0 0 20px 20px; /* Márgenes */
-    max-width: 25%; /* Ancho máximo */
-    height: auto; /* Altura automática */
-  }
-  
-  /* Estilo de las imágenes alineadas a la izquierda */
-  .image2 {
-    float: left; /* Flotar a la izquierda */
-    margin: 0 20px 20px 0; /* Márgenes */
-    max-width: 25%; /* Ancho máximo */
-    height: auto; /* Altura automática */
-  }
-  
-  /* Estilo del artículo principal */
-  .article {
-  float: left; /* Flotar a la izquierda */
-  width: 70%; /* Ancho del artículo */
-  background-color: #FFF; /* Color de fondo */
-  padding: 10px; /* Relleno interno */
-  margin: 10px; /* Márgenes */
-  border: 1px solid #CCC; /* Borde */
-  }
-  
-  /* Estilo de las imágenes con limpieza flotante */
-  .image3 {
-    float: right; /* Flotar a la derecha */
-    clear: both; /* Limpiar flotación */
-    margin: 0 0 20px 20px; /* Márgenes */
-    max-width: 25%; /* Ancho máximo */
-    height: auto; /* Altura automática */
-  }
+/* Estilo para el subtítulo principal */
+.subtitulo{
+  text-align: center; /* Centra el texto */
+  color: #444; /* Color del texto */
+  margin: 15px; /* Margen alrededor del subtítulo */
+  padding: 0; /* Sin relleno */
+}
+
+/* Estilo para los títulos internos */
+.tituloInterno{
+  font-size: 24px; /* Tamaño de fuente */
+  padding: 0 0 0 20px; /* Relleno a la izquierda */
+  margin: 0; /* Sin margen */
+  font-family: 'Chewy', cursive; /* Fuente personalizada */
+}
+
+/* Contenedor principal del contenido */
+.contenedor{
+  max-width: 100%; /* Ancho máximo del contenedor */
+  margin: 0 auto; /* Centra el contenedor */
+  padding: 20px; /* Relleno dentro del contenedor */
+}
+
+/* Estilo para las imágenes flotantes a la derecha */
+.imagen{
+  float: right; /* Flota la imagen a la derecha */
+  margin: 0 0 20px 20px; /* Margen inferior e izquierdo */
+  max-width: 25%; /* Ancho máximo del 25% del contenedor */
+  height: auto; /* Ajusta la altura automáticamente */
+}
+
+/* Estilo para las imágenes flotantes a la izquierda */
+.imagen2{
+  float: left; /* Flota la imagen a la izquierda */
+  margin: 0 20px 20px 0px; /* Margen derecho e inferior */
+  max-width: 25%; /* Ancho máximo del 25% del contenedor */
+  height: auto; /* Ajusta la altura automáticamente */
+}
+
+/* Estilo para los párrafos */
+p{
+  font-size: 18px; /* Tamaño de fuente */
+}
