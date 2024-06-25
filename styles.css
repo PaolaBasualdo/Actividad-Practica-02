@@ -10,7 +10,7 @@ body {
 
 /* Estilo del encabezado */
 header {
-  background-color: #ffcc80; /* Color de fondo del encabezado */
+  background: linear-gradient(to right, #ffffff 0%, #ffcc80 46%, #ff847c 100%);
   padding: 20px; /* Relleno interno */
   text-align: center; /* Centrar contenido */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra del encabezado */
@@ -46,6 +46,12 @@ header ul li a {
   color: #333; /* Color del texto */
   font-weight: bold; /* Texto en negrita */
 }
+.active{
+  background-color:#ff847c ;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 10px;
+}
 
 /* Estilo del enlace activo en la lista de navegación */
 header ul li a.active {
@@ -55,15 +61,12 @@ header ul li a.active {
 /* Estilo del pie de página */
 .footer { 
   background-color: #ffcc80; /* Color de fondo del pie de página */
-  text-align: center; /* Centrar texto */
-  padding: 10px; /* Relleno interno */
-  /*clear: both; /* Limpiar flotación */
-  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); /* Sombra del pie de página */
-  /*position: fixed;*/
+  padding: 15px;
+  text-align: center;
+  position: fixed;
   bottom: 0;
   width: 100%;
-  height: 15px;
-  
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); /* Sombra del pie de página */
 }
 
 /* Estilo del subtítulo principal */
@@ -74,5 +77,4 @@ h2 {
   padding: 0; /* Eliminar relleno */
   text-align: center; /* Centrar texto */
 }
-
 
