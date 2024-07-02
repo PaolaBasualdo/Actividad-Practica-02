@@ -47,12 +47,6 @@ header ul li a {
   color: #333; /* Color del texto */
   font-weight: bold; /* Texto en negrita */
 }
-.active{
-  background-color:#ff847c ;
-  border-radius: 10px;
-  font-size: 15px;
-  padding: 10px;
-}
 
 /* Clase para el elemento activo de la navegación */
 .active {
