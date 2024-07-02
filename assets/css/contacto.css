@@ -37,6 +37,9 @@ input[type=submit]:hover {
     background-color: #2ef02e
 }
 
+textarea:focus,input:focus{
+    background-color: #ff847c;
+}
 .contenedor-radio-motivo {
     display: flex;
     flex-direction: column;
